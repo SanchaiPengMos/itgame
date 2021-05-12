@@ -1,9 +1,10 @@
 import React, { Component } from 'react'
+import Top from "./components/HeaderBanner/Banner";
 
 
 import './App.css'
 
-export default class Index extends Component {
+export default class App extends Component {
 
   constructor(props){
     super(props)
@@ -15,8 +16,8 @@ export default class Index extends Component {
 
     render() {
         return (
-          <div className="App">
-            <h1>Hello</h1>
+          <div className="continner">
+            <Top />
           </div>
 
         )
